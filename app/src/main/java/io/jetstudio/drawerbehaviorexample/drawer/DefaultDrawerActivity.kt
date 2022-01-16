@@ -1,4 +1,4 @@
-package com.infideap.drawerbehaviorexample.drawer
+package io.jetstudio.drawerbehaviorexample.drawer
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,14 +11,14 @@ import androidx.core.view.GravityCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
-import com.infideap.drawerbehavior.Advance3DDrawerLayout
-import com.infideap.drawerbehaviorexample.R
+import io.jetstudio.drawerbehavior.AdvanceDrawerLayout
+import io.jetstudio.drawerbehaviorexample.R
 
-class Advance3DDrawer1Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
-    private var drawer: Advance3DDrawerLayout? = null
+class DefaultDrawerActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+    private var drawer: AdvanceDrawerLayout? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_advance_3d_1)
+        setContentView(R.layout.activity_default)
         val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
         val fab = findViewById<View>(R.id.fab) as FloatingActionButton
@@ -26,17 +26,13 @@ class Advance3DDrawer1Activity : AppCompatActivity(), NavigationView.OnNavigatio
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
-        drawer = findViewById<View>(R.id.drawer_layout) as Advance3DDrawerLayout
+        drawer = findViewById<View>(R.id.drawer_layout) as AdvanceDrawerLayout
         val toggle = ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
         drawer!!.addDrawerListener(toggle)
         toggle.syncState()
         val navigationView = findViewById<View>(R.id.nav_view) as NavigationView
         navigationView.setNavigationItemSelectedListener(this)
-        drawer!!.setViewScale(GravityCompat.START, 0.96f)
-//        drawer!!.setRadius(GravityCompat.START, 20f)
-        drawer!!.setViewElevation(GravityCompat.START, 8f)
-        drawer!!.setViewRotation(GravityCompat.START, 15f)
     }
 
     override fun onBackPressed() {

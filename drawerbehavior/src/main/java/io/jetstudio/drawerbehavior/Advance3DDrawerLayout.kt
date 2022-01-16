@@ -1,10 +1,9 @@
-package com.infideap.drawerbehavior
+package io.jetstudio.drawerbehavior
 
 import android.content.Context
 import android.graphics.Color
 import android.util.AttributeSet
 import androidx.cardview.widget.CardView
-import com.infideap.drawerbehavior.Advance3DDrawerLayout
 
 /**
  * Created by Shiburagi on 21/09/2017.

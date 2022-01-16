@@ -1,6 +1,7 @@
-package com.infideap.drawerbehaviorexample.drawer
+package io.jetstudio.drawerbehaviorexample.drawer
 
 import android.os.Bundle
+import android.view.Gravity
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -11,14 +12,14 @@ import androidx.core.view.GravityCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
-import com.infideap.drawerbehavior.AdvanceDrawerLayout
-import com.infideap.drawerbehaviorexample.R
+import io.jetstudio.drawerbehavior.AdvanceDrawerLayout
+import io.jetstudio.drawerbehaviorexample.R
 
-class DefaultDrawerActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class AdvanceDrawer1Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     private var drawer: AdvanceDrawerLayout? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_default)
+        setContentView(R.layout.activity_advance1)
         val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
         val fab = findViewById<View>(R.id.fab) as FloatingActionButton
@@ -33,6 +34,8 @@ class DefaultDrawerActivity : AppCompatActivity(), NavigationView.OnNavigationIt
         toggle.syncState()
         val navigationView = findViewById<View>(R.id.nav_view) as NavigationView
         navigationView.setNavigationItemSelectedListener(this)
+        drawer!!.useCustomBehavior(Gravity.START)
+        drawer!!.useCustomBehavior(Gravity.END)
     }
 
     override fun onBackPressed() {

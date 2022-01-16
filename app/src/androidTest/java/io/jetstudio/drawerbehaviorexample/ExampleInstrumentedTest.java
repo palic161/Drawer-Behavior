@@ -1,4 +1,4 @@
-package com.infideap.drawerbehaviorexample;
+package io.jetstudio.drawerbehaviorexample;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getContext();
 
-        assertEquals("com.infideap.drawerbehaviorexample", appContext.getPackageName());
+        assertEquals("io.jetstudio.drawerbehaviorexample", appContext.getPackageName());
     }
 }

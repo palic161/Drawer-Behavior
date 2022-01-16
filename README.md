@@ -69,7 +69,7 @@ you can include it by **download this project** and **import /drawerbehavior** a
 ### Advance Drawer Layout
 ---
 ```xml
-<com.infideap.drawerbehavior.AdvanceDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<io.jetstudio.drawerbehavior.AdvanceDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
@@ -104,7 +104,7 @@ you can include it by **download this project** and **import /drawerbehavior** a
         <include layout="@layout/content_notification"/>
     </android.support.design.widget.NavigationView>
 
-</com.infideap.drawerbehavior.AdvanceDrawerLayout>
+</io.jetstudio.drawerbehavior.AdvanceDrawerLayout>
 ```
 
 **Initialize**
@@ -135,7 +135,7 @@ drawer.setRadius(GravityCompat.START, 25);//set end container's corner radius (d
 ![Alt Text](https://raw.githubusercontent.com/shiburagi/Drawer-Behavior/preview/gif/preview-3d-2.gif)
 
 ```xml
-<com.infideap.drawerbehavior.Advance3DDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<io.jetstudio.drawerbehavior.Advance3DDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
@@ -171,7 +171,7 @@ drawer.setRadius(GravityCompat.START, 25);//set end container's corner radius (d
         <include layout="@layout/content_notification"/>
     </android.support.design.widget.NavigationView>
 
-</com.infideap.drawerbehavior.Advance3DDrawerLayout>
+</io.jetstudio.drawerbehavior.Advance3DDrawerLayout>
 ```
 
 **Initialize**

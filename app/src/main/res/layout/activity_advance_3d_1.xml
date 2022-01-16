@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.infideap.drawerbehavior.Advance3DDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<io.jetstudio.drawerbehavior.Advance3DDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
@@ -35,4 +35,4 @@
         <include layout="@layout/content_notification"/>
     </com.google.android.material.navigation.NavigationView>
 
-</com.infideap.drawerbehavior.Advance3DDrawerLayout>
+</io.jetstudio.drawerbehavior.Advance3DDrawerLayout>

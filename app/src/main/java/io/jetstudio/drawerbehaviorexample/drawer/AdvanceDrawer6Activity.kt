@@ -1,4 +1,4 @@
-package com.infideap.drawerbehaviorexample.drawer
+package io.jetstudio.drawerbehaviorexample.drawer
 
 import android.os.Build
 import android.os.Bundle
@@ -13,8 +13,8 @@ import androidx.core.view.ViewCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
-import com.infideap.drawerbehavior.AdvanceDrawerLayout
-import com.infideap.drawerbehaviorexample.R
+import io.jetstudio.drawerbehavior.AdvanceDrawerLayout
+import io.jetstudio.drawerbehaviorexample.R
 import java.util.*
 
 class AdvanceDrawer6Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {

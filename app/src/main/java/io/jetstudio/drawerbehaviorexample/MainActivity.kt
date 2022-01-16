@@ -1,10 +1,11 @@
-package com.infideap.drawerbehaviorexample
+package io.jetstudio.drawerbehaviorexample
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.infideap.drawerbehaviorexample.drawer.*
+import io.jetstudio.drawerbehaviorexample.R
+import io.jetstudio.drawerbehaviorexample.drawer.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {

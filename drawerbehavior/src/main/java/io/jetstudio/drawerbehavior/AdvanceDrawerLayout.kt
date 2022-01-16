@@ -1,4 +1,4 @@
-package com.infideap.drawerbehavior
+package io.jetstudio.drawerbehavior
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -9,7 +9,6 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Build
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
@@ -21,8 +20,8 @@ import androidx.core.view.ViewCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.shape.MaterialShapeDrawable
+import io.jetstudio.drawerbehavior.R
 import java.util.*
-import kotlin.math.floor
 import kotlin.math.round
 
 /**

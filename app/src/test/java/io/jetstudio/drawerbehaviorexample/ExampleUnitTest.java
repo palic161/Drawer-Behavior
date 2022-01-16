@@ -1,4 +1,4 @@
-package com.infideap.drawerbehaviorexample;
+package io.jetstudio.drawerbehaviorexample;
 
 import org.junit.Test;
 
