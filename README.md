@@ -6,6 +6,8 @@ Drawer behavior is a library use **[Android DrawerLayout Support library](https:
 
 If current project use **Android DrawerLayout Support library** and kinda boring with the effect. Then, just **change the layout code** and **calling** necessary **method for animation/effect**.
 
+## Update 1.0.6
+ * Update Gradle version
 
 ## New update
  * Change **Card barkground** color ([Jazcorra-Zero](https://github.com/jazcorra-zero))
