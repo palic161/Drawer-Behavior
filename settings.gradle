@@ -1,1 +1,1 @@
-include ':app', ':drawerbehavior'
+include ':drawerbehavior'
